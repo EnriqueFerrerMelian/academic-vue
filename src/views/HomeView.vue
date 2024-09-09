@@ -22,7 +22,7 @@
 					<td v-text="std.id"></td>
 					<td>
 						<img v-if="std.photo" style="width: 150px !important;" :src="std.photo" class="img-thumbnail" alt="">
-						<img v-else height="90" src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png" alt="">
+						<img v-else height="90" src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-256.png" alt="avatar photo">
 					</td>
 					<td v-text="std.name"></td>
 					<td v-text="std.last_name"></td>
