@@ -34,6 +34,9 @@ We (me) appreciate your contributions! If you want to improve this project, plea
     Upload your changes: git push origin new-feature.
     Submit a pull request.
     If you use this app, please enjoy it.
+![prev 01](https://github.com/user-attachments/assets/9df0ae41-b8eb-4380-b6e3-417096de26fa)
+![prev 02](https://github.com/user-attachments/assets/454459b8-2fe8-420c-a969-79216d34e3e3)
+![prev 03](https://github.com/user-attachments/assets/a5ba5d63-fbe0-4bfe-9ab3-6e2b1e7f5966)
 
 ## 🐛 Problems
 If you have any problem, let me know. It's quite straight forward.
