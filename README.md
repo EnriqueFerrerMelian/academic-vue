@@ -24,6 +24,10 @@
     Clone this repository to your local machine.
     Open your copy of 'Android Studio'.
     Lunch Apache server from Laragon.
+    Start Apache and Mysql server.
+    'Serve' from the folder project from Laragon terminal.
+    
+![howto](https://github.com/user-attachments/assets/0d203ce1-152f-4831-b8cb-4c8bf88feb08)
 
 ## 🤝 Contribution
 We (me) appreciate your contributions! If you want to improve this project, please follow these steps:
