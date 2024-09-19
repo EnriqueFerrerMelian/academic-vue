@@ -6,28 +6,54 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+REST API for student and course management, developed with a local Apache server using Laragon and with a HeidiSQL database. 
+This project is connected to the Frontend part found in the repository: [Educational-App] (https://github.com/EnriqueFerrerMelian/Educational-App----Back-end).
 
 ## 📝 Description
-    Api rest for management of students and courses. Using an Apache local server, 
-    with Laragon terminal. I create a database in HeidiSQL. This is the Front-END 
-    part of the project => Educational-App <=
+This project provides a set of endpoints to manage students and courses. Allows you to create, list, view profiles, and delete students or courses. 
+It is designed to facilitate the administration of information related to educational management.
+
+The backend project connects to a frontend created in Vue.js, which you can find in the repository mentioned above.
 
 ## 🌟 Features
-    *List, view profile, add and remove student or course.
+    *List, view profiles, add and delete students or courses.
+    *Secure and well-structured functionalities with error handling.
 
 ## 🛠 Installation Requirements
-    *Visual Studio Code
-    *Laragon
-    Packages: Axios, fontawesome-free icon package, boostrap.
-
+To run this project, you will need the following resources and packages:
+- Visual Studio Code or any other text editor.
+- Laragon for the local server.
+- HeidiSQL for database management.
+- Required packages:
+    - Axios (for HTTP requests)
+    - Font Awesome (icon pack)
+    - Bootstrap (for frontend design if you use it in the integration).
+  
 ## 💻 Installation
-    Clone this repository to your local machine.
-    Open your copy of 'Android Studio'.
-    Lunch Apache server from Laragon.
-    Start Apache and Mysql server.
-    'Serve' from the folder project from Laragon terminal.
+Follow these steps to install the project in your local environment:
+1. Clone this repository to your machine:
+git clone https://github.com/EnriqueFerrerMelian/Educational-App-Backend.git
+2. Open the project in Visual Studio Code (or your preferred editor).
+3. Open Laragon and turn on the Apache and MySQL servers.
+4. Make sure your database is configured in HeidiSQL (or your favorite SQL manager). 
+Run the database script included in the repository to create the necessary tables.
+5. From the Laragon terminal, navigate to the project folder and run:
+php artisan serve
+6.Access the application in your browser at http://localhost:8000.
+
+
+## Primary endpoints
+*GET /students: List all students.
+*POST /students: Create a new student.
+*GET /students/{id}: View a student's profile.
+*DELETE /students/{id}: Delete a student.
+*GET /courses: List all courses.
+*POST /courses: Create a new course.
+*DELETE /courses/{id}: Delete a course.
     
-![howto](https://github.com/user-attachments/assets/0d203ce1-152f-4831-b8cb-4c8bf88feb08)
+## Use
+1. Start the Apache server from Laragon and make sure the MySQL server is running.
+2. You can interact with the API using tools like Postman or by integrating it directly into the associated frontend.
 
 ## 🤝 Contribution
 We (me) appreciate your contributions! If you want to improve this project, please follow these steps:
